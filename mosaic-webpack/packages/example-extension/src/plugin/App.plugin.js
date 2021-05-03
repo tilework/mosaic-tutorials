@@ -1,7 +1,15 @@
 const plugin = (args, callback) => {
-    console.log('The plugin works!');
+    const originalData = callback(...args);
+    const additionalData = [
+        'Additional data'
+    ];
 
-    return callback(...args);
+    console.log({ originalData });
+
+    return [
+        ...originalData,
+        ...additionalData
+    ];
 };
 
 export default {
