@@ -6,7 +6,9 @@
   "dependencies": {
     "@babel/core": "^7.14.0",
     "@tilework/mosaic": "^0.0.3",
-    "@tilework/mosaic-config-injectors": "^0.0.4"
+    "@tilework/mosaic-config-injectors": "^0.0.4",
+    "@tilework/mosaic-node-scripts": "^0.0.4",
+    "example-extension": "file:./packages/example-extension"
   },
   "devDependencies": {
     "webpack": "^5.36.2",
@@ -14,6 +16,8 @@
   },
   "scripts": {
     "build": "webpack",
-    "start": "node dist/bundle.js"
+    "start": "node dist/bundle.js",
+    "postinstall": "node-scripts link",
+    "postupdate": "node-scripts link"
   }
 }

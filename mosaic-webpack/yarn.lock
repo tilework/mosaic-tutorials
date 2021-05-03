@@ -333,6 +333,13 @@
     react-dev-utils "^11.0.4"
     validate-npm-package-name "^3.0.0"
 
+"@tilework/mosaic-node-scripts@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@tilework/mosaic-node-scripts/-/mosaic-node-scripts-0.0.4.tgz#02a2cd96cfe5294191330ae6bd27bc34722bf12e"
+  integrity sha512-9BOxb3Zdly46c/7ISen+q3Vza7nC5CKwkAv235TQgjlzFPSqBypcUvh6ecWMrwSuWWWnltsyxMGS7AlkgQbKHw==
+  dependencies:
+    "@tilework/mosaic-dev-utils" "0.0.4"
+
 "@tilework/mosaic-webpack-fallback-plugin@0.0.4":
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/@tilework/mosaic-webpack-fallback-plugin/-/mosaic-webpack-fallback-plugin-0.0.4.tgz#e31032c5f81245f6f1de1924be3b24863b4d4959"
@@ -1156,6 +1163,9 @@ events@^3.2.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/events/-/events-3.3.0.tgz#31a95ad0a924e2d2c419a813aeb2c4e878ea7400"
   integrity sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q==
+
+"example-extension@file:./packages/example-extension":
+  version "1.0.0"
 
 execa@^5.0.0:
   version "5.0.0"
