@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
+/** @namespace App/App */
 function App() {
   return (
     <div className="App">
