@@ -17,7 +17,9 @@
     "start": "cra-scripts start",
     "build": "cra-scripts build",
     "test": "cra-scripts test",
-    "eject": "cra-scripts eject"
+    "eject": "cra-scripts eject",
+    "postinstall": "cra-scripts link",
+    "postupdate": "cra-scripts link"
   },
   "eslintConfig": {
     "extends": [
