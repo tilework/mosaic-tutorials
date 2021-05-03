@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "license": "MIT",
+  "mosaic": {
+    "extensions": {
+      "example-extension": true
+    }
+  },
   "dependencies": {
     "@babel/core": "^7.14.0",
     "@tilework/mosaic": "^0.0.3",
